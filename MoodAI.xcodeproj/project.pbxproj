@@ -1,0 +1,777 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0894A34A29B1E1C50015E999 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0894A34929B1E1C50015E999 /* SecondViewController.swift */; };
+		0894A34C29B1F9730015E999 /* fer13.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 0894A34B29B1F43E0015E999 /* fer13.tflite */; };
+		0894A34E29B1FD500015E999 /* fer13_v2.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 0894A34D29B1FD3D0015E999 /* fer13_v2.tflite */; };
+		0894A35029B21B8F0015E999 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0894A34F29B21B8F0015E999 /* MapViewController.swift */; };
+		0894A35229B376D00015E999 /* custom.json in Resources */ = {isa = PBXBuildFile; fileRef = 0894A35129B376D00015E999 /* custom.json */; };
+		089C742629B0B17E00C5D91B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089C742529B0B17E00C5D91B /* AppDelegate.swift */; };
+		089C742829B0B17E00C5D91B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089C742729B0B17E00C5D91B /* SceneDelegate.swift */; };
+		089C742D29B0B17E00C5D91B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 089C742B29B0B17E00C5D91B /* Main.storyboard */; };
+		089C742F29B0B18500C5D91B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 089C742E29B0B18500C5D91B /* Assets.xcassets */; };
+		089C743229B0B18500C5D91B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 089C743029B0B18500C5D91B /* LaunchScreen.storyboard */; };
+		089C743D29B0B18500C5D91B /* MoodAITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089C743C29B0B18500C5D91B /* MoodAITests.swift */; };
+		089C744729B0B18500C5D91B /* MoodAIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089C744629B0B18500C5D91B /* MoodAIUITests.swift */; };
+		089C744929B0B18500C5D91B /* MoodAIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089C744829B0B18500C5D91B /* MoodAIUITestsLaunchTests.swift */; };
+		089C746129B0E44100C5D91B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089C746029B0E44100C5D91B /* ViewController.swift */; };
+		780CA27BFB9AC56FA3AE5478 /* Pods_MoodAI_MoodAIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08A134D8EFA48A7AFCB8BC99 /* Pods_MoodAI_MoodAIUITests.framework */; };
+		CD97722E1A39D7ABD7F9711B /* Pods_MoodAI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F89EF8A71333C299D62C15E /* Pods_MoodAI.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		ED3D13417FC1BE8587DE09FE /* Pods_MoodAITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3E208971717BB3E06EF9FF4 /* Pods_MoodAITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		089C743929B0B18500C5D91B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 089C741A29B0B17E00C5D91B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 089C742129B0B17E00C5D91B;
+			remoteInfo = MoodAI;
+		};
+		089C744329B0B18500C5D91B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 089C741A29B0B17E00C5D91B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 089C742129B0B17E00C5D91B;
+			remoteInfo = MoodAI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0638F5D999B57261F7D2A8AD /* Pods-MoodAI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoodAI.release.xcconfig"; path = "Target Support Files/Pods-MoodAI/Pods-MoodAI.release.xcconfig"; sourceTree = "<group>"; };
+		0894A34929B1E1C50015E999 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		0894A34B29B1F43E0015E999 /* fer13.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = fer13.tflite; sourceTree = "<group>"; };
+		0894A34D29B1FD3D0015E999 /* fer13_v2.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = fer13_v2.tflite; sourceTree = "<group>"; };
+		0894A34F29B21B8F0015E999 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		0894A35129B376D00015E999 /* custom.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = custom.json; sourceTree = "<group>"; };
+		089C742229B0B17E00C5D91B /* MoodAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoodAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		089C742529B0B17E00C5D91B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		089C742729B0B17E00C5D91B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		089C742C29B0B17E00C5D91B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		089C742E29B0B18500C5D91B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		089C743129B0B18500C5D91B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		089C743329B0B18500C5D91B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		089C743829B0B18500C5D91B /* MoodAITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoodAITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		089C743C29B0B18500C5D91B /* MoodAITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodAITests.swift; sourceTree = "<group>"; };
+		089C744229B0B18500C5D91B /* MoodAIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoodAIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		089C744629B0B18500C5D91B /* MoodAIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodAIUITests.swift; sourceTree = "<group>"; };
+		089C744829B0B18500C5D91B /* MoodAIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodAIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		089C746029B0E44100C5D91B /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		08A134D8EFA48A7AFCB8BC99 /* Pods_MoodAI_MoodAIUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoodAI_MoodAIUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BAEF03BFA8FCBBE1B9447F7 /* Pods-MoodAI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoodAI.debug.xcconfig"; path = "Target Support Files/Pods-MoodAI/Pods-MoodAI.debug.xcconfig"; sourceTree = "<group>"; };
+		4F89EF8A71333C299D62C15E /* Pods_MoodAI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoodAI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		57731B09672C52244DF333F4 /* Pods-MoodAITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoodAITests.release.xcconfig"; path = "Target Support Files/Pods-MoodAITests/Pods-MoodAITests.release.xcconfig"; sourceTree = "<group>"; };
+		994401C596EA661821706489 /* Pods-MoodAITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoodAITests.debug.xcconfig"; path = "Target Support Files/Pods-MoodAITests/Pods-MoodAITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D3E208971717BB3E06EF9FF4 /* Pods_MoodAITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoodAITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E185A73746252D115F8769CF /* Pods-MoodAI-MoodAIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoodAI-MoodAIUITests.debug.xcconfig"; path = "Target Support Files/Pods-MoodAI-MoodAIUITests/Pods-MoodAI-MoodAIUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F87841DFCDA7E2896EC7C08A /* Pods-MoodAI-MoodAIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoodAI-MoodAIUITests.release.xcconfig"; path = "Target Support Files/Pods-MoodAI-MoodAIUITests/Pods-MoodAI-MoodAIUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		089C741F29B0B17E00C5D91B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD97722E1A39D7ABD7F9711B /* Pods_MoodAI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		089C743529B0B18500C5D91B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED3D13417FC1BE8587DE09FE /* Pods_MoodAITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		089C743F29B0B18500C5D91B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				780CA27BFB9AC56FA3AE5478 /* Pods_MoodAI_MoodAIUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C741929B0B17E00C5D91B = {
+			isa = PBXGroup;
+			children = (
+				089C742429B0B17E00C5D91B /* MoodAI */,
+				089C743B29B0B18500C5D91B /* MoodAITests */,
+				089C744529B0B18500C5D91B /* MoodAIUITests */,
+				089C742329B0B17E00C5D91B /* Products */,
+				F899F4B3D8EE9019F749D70E /* Pods */,
+				6675A2EC3B40427BD633F220 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		089C742329B0B17E00C5D91B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				089C742229B0B17E00C5D91B /* MoodAI.app */,
+				089C743829B0B18500C5D91B /* MoodAITests.xctest */,
+				089C744229B0B18500C5D91B /* MoodAIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		089C742429B0B17E00C5D91B /* MoodAI */ = {
+			isa = PBXGroup;
+			children = (
+				0894A35129B376D00015E999 /* custom.json */,
+				089C742529B0B17E00C5D91B /* AppDelegate.swift */,
+				089C742729B0B17E00C5D91B /* SceneDelegate.swift */,
+				089C746029B0E44100C5D91B /* ViewController.swift */,
+				0894A34929B1E1C50015E999 /* SecondViewController.swift */,
+				0894A34F29B21B8F0015E999 /* MapViewController.swift */,
+				0894A34B29B1F43E0015E999 /* fer13.tflite */,
+				0894A34D29B1FD3D0015E999 /* fer13_v2.tflite */,
+				089C742B29B0B17E00C5D91B /* Main.storyboard */,
+				089C742E29B0B18500C5D91B /* Assets.xcassets */,
+				089C743029B0B18500C5D91B /* LaunchScreen.storyboard */,
+				089C743329B0B18500C5D91B /* Info.plist */,
+			);
+			path = MoodAI;
+			sourceTree = "<group>";
+		};
+		089C743B29B0B18500C5D91B /* MoodAITests */ = {
+			isa = PBXGroup;
+			children = (
+				089C743C29B0B18500C5D91B /* MoodAITests.swift */,
+			);
+			path = MoodAITests;
+			sourceTree = "<group>";
+		};
+		089C744529B0B18500C5D91B /* MoodAIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				089C744629B0B18500C5D91B /* MoodAIUITests.swift */,
+				089C744829B0B18500C5D91B /* MoodAIUITestsLaunchTests.swift */,
+			);
+			path = MoodAIUITests;
+			sourceTree = "<group>";
+		};
+		6675A2EC3B40427BD633F220 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F89EF8A71333C299D62C15E /* Pods_MoodAI.framework */,
+				08A134D8EFA48A7AFCB8BC99 /* Pods_MoodAI_MoodAIUITests.framework */,
+				D3E208971717BB3E06EF9FF4 /* Pods_MoodAITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F899F4B3D8EE9019F749D70E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1BAEF03BFA8FCBBE1B9447F7 /* Pods-MoodAI.debug.xcconfig */,
+				0638F5D999B57261F7D2A8AD /* Pods-MoodAI.release.xcconfig */,
+				E185A73746252D115F8769CF /* Pods-MoodAI-MoodAIUITests.debug.xcconfig */,
+				F87841DFCDA7E2896EC7C08A /* Pods-MoodAI-MoodAIUITests.release.xcconfig */,
+				994401C596EA661821706489 /* Pods-MoodAITests.debug.xcconfig */,
+				57731B09672C52244DF333F4 /* Pods-MoodAITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		089C742129B0B17E00C5D91B /* MoodAI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 089C744C29B0B18500C5D91B /* Build configuration list for PBXNativeTarget "MoodAI" */;
+			buildPhases = (
+				9D82016AAB6060C03049B330 /* [CP] Check Pods Manifest.lock */,
+				089C741E29B0B17E00C5D91B /* Sources */,
+				089C741F29B0B17E00C5D91B /* Frameworks */,
+				089C742029B0B17E00C5D91B /* Resources */,
+				88FCB94E72CE1FBA364AA1EA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoodAI;
+			productName = MoodAI;
+			productReference = 089C742229B0B17E00C5D91B /* MoodAI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		089C743729B0B18500C5D91B /* MoodAITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 089C744F29B0B18500C5D91B /* Build configuration list for PBXNativeTarget "MoodAITests" */;
+			buildPhases = (
+				B84C1E040B106BE57181F778 /* [CP] Check Pods Manifest.lock */,
+				089C743429B0B18500C5D91B /* Sources */,
+				089C743529B0B18500C5D91B /* Frameworks */,
+				089C743629B0B18500C5D91B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				089C743A29B0B18500C5D91B /* PBXTargetDependency */,
+			);
+			name = MoodAITests;
+			productName = MoodAITests;
+			productReference = 089C743829B0B18500C5D91B /* MoodAITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		089C744129B0B18500C5D91B /* MoodAIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 089C745229B0B18500C5D91B /* Build configuration list for PBXNativeTarget "MoodAIUITests" */;
+			buildPhases = (
+				BD18F953C461B0BCA7C6119C /* [CP] Check Pods Manifest.lock */,
+				089C743E29B0B18500C5D91B /* Sources */,
+				089C743F29B0B18500C5D91B /* Frameworks */,
+				089C744029B0B18500C5D91B /* Resources */,
+				B2C0E5109084A78CB864E88E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				089C744429B0B18500C5D91B /* PBXTargetDependency */,
+			);
+			name = MoodAIUITests;
+			productName = MoodAIUITests;
+			productReference = 089C744229B0B18500C5D91B /* MoodAIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C741A29B0B17E00C5D91B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					089C742129B0B17E00C5D91B = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					089C743729B0B18500C5D91B = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 089C742129B0B17E00C5D91B;
+					};
+					089C744129B0B18500C5D91B = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 089C742129B0B17E00C5D91B;
+					};
+				};
+			};
+			buildConfigurationList = 089C741D29B0B17E00C5D91B /* Build configuration list for PBXProject "MoodAI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 089C741929B0B17E00C5D91B;
+			productRefGroup = 089C742329B0B17E00C5D91B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				089C742129B0B17E00C5D91B /* MoodAI */,
+				089C743729B0B18500C5D91B /* MoodAITests */,
+				089C744129B0B18500C5D91B /* MoodAIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		089C742029B0B17E00C5D91B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0894A34E29B1FD500015E999 /* fer13_v2.tflite in Resources */,
+				0894A34C29B1F9730015E999 /* fer13.tflite in Resources */,
+				0894A35229B376D00015E999 /* custom.json in Resources */,
+				089C743229B0B18500C5D91B /* LaunchScreen.storyboard in Resources */,
+				089C742F29B0B18500C5D91B /* Assets.xcassets in Resources */,
+				089C742D29B0B17E00C5D91B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		089C743629B0B18500C5D91B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		089C744029B0B18500C5D91B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		88FCB94E72CE1FBA364AA1EA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MoodAI/Pods-MoodAI-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MoodAI/Pods-MoodAI-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MoodAI/Pods-MoodAI-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D82016AAB6060C03049B330 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MoodAI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2C0E5109084A78CB864E88E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MoodAI-MoodAIUITests/Pods-MoodAI-MoodAIUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MoodAI-MoodAIUITests/Pods-MoodAI-MoodAIUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MoodAI-MoodAIUITests/Pods-MoodAI-MoodAIUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B84C1E040B106BE57181F778 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MoodAITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD18F953C461B0BCA7C6119C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MoodAI-MoodAIUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		089C741E29B0B17E00C5D91B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				089C742629B0B17E00C5D91B /* AppDelegate.swift in Sources */,
+				089C746129B0E44100C5D91B /* ViewController.swift in Sources */,
+				0894A34A29B1E1C50015E999 /* SecondViewController.swift in Sources */,
+				0894A35029B21B8F0015E999 /* MapViewController.swift in Sources */,
+				089C742829B0B17E00C5D91B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		089C743429B0B18500C5D91B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				089C743D29B0B18500C5D91B /* MoodAITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		089C743E29B0B18500C5D91B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				089C744729B0B18500C5D91B /* MoodAIUITests.swift in Sources */,
+				089C744929B0B18500C5D91B /* MoodAIUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		089C743A29B0B18500C5D91B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 089C742129B0B17E00C5D91B /* MoodAI */;
+			targetProxy = 089C743929B0B18500C5D91B /* PBXContainerItemProxy */;
+		};
+		089C744429B0B18500C5D91B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 089C742129B0B17E00C5D91B /* MoodAI */;
+			targetProxy = 089C744329B0B18500C5D91B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		089C742B29B0B17E00C5D91B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C742C29B0B17E00C5D91B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		089C743029B0B18500C5D91B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C743129B0B18500C5D91B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		089C744A29B0B18500C5D91B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		089C744B29B0B18500C5D91B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		089C744D29B0B18500C5D91B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BAEF03BFA8FCBBE1B9447F7 /* Pods-MoodAI.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UU5Q8MGL4F;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MoodAI/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.takato.MoodAI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		089C744E29B0B18500C5D91B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0638F5D999B57261F7D2A8AD /* Pods-MoodAI.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UU5Q8MGL4F;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MoodAI/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.takato.MoodAI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		089C745029B0B18500C5D91B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 994401C596EA661821706489 /* Pods-MoodAITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.takato.MoodAITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoodAI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MoodAI";
+			};
+			name = Debug;
+		};
+		089C745129B0B18500C5D91B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57731B09672C52244DF333F4 /* Pods-MoodAITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.takato.MoodAITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoodAI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MoodAI";
+			};
+			name = Release;
+		};
+		089C745329B0B18500C5D91B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E185A73746252D115F8769CF /* Pods-MoodAI-MoodAIUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.takato.MoodAIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MoodAI;
+			};
+			name = Debug;
+		};
+		089C745429B0B18500C5D91B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F87841DFCDA7E2896EC7C08A /* Pods-MoodAI-MoodAIUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.takato.MoodAIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MoodAI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		089C741D29B0B17E00C5D91B /* Build configuration list for PBXProject "MoodAI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				089C744A29B0B18500C5D91B /* Debug */,
+				089C744B29B0B18500C5D91B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		089C744C29B0B18500C5D91B /* Build configuration list for PBXNativeTarget "MoodAI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				089C744D29B0B18500C5D91B /* Debug */,
+				089C744E29B0B18500C5D91B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		089C744F29B0B18500C5D91B /* Build configuration list for PBXNativeTarget "MoodAITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				089C745029B0B18500C5D91B /* Debug */,
+				089C745129B0B18500C5D91B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		089C745229B0B18500C5D91B /* Build configuration list for PBXNativeTarget "MoodAIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				089C745329B0B18500C5D91B /* Debug */,
+				089C745429B0B18500C5D91B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C741A29B0B17E00C5D91B /* Project object */;
+}
