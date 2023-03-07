@@ -8,4 +8,4 @@ LINK to demo video: https://drive.google.com/file/d/1-6jzfB3bWZQdWWNbHqA6Zj03TiX
 
 LINK to actual demo (if you have iPhone or iPad): https://testflight.apple.com/join/MtIPDE0W 
 
-Try the demo and leave us feedback!!
+Try the demo and leave us feedback!! *please use it in light mode for now
